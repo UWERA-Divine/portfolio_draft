@@ -15,65 +15,24 @@
 body {
   width: 100%;
   min-height: 100vh;
-  overflow-x: hidden;
+}
+.upper-bg {
 }
 #main-bg {
-  position: absolute;
-  top: -2.7rem;
+  /* position: absolute; */
+  /* top: -2.7rem; */
 }
 nav {
   position: absolute;
   top: 1rem;
 }
-/*
-nav .fa-solid {
-  display: none;
-}
-nav .fa-moon {
-  display: inline-block;
-  font-size: 32px;
-  color: #f44336;
-  cursor: pointer;
-}
-nav .dark-mode {
-  align-self: center;
-}
-nav ul {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  list-style: none;
-}
-
-nav ul li {
-  position: relative;
-  font-size: 24px;
-  margin-right: 3.5rem;
-}
-nav ul li a {
-  text-decoration: none;
-  color: #fff;
-}
-nav ul li a::after {
-  content: "";
-  width: 0;
-  height: 3px;
-  background: #f44336;
-  position: absolute;
-  left: 0;
-  bottom: -6px;
-  transition: 0.4s;
-}
-nav ul li a:hover::after {
-  width: 100%;
-} */
 
 .name {
-  position: absolute;
+  /* position: absolute;
   width: 637px;
   height: 86px;
   left: 105.5px;
-  top: 335.5px;
+  top: 335.5px; */
 }
 
 .name h1 {
@@ -111,7 +70,7 @@ nav ul li a:hover::after {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* z-index: 100; */
+  z-index: 100;
 }
 .above {
   z-index: 100;
@@ -137,7 +96,7 @@ nav ul li a:hover::after {
 }
 .image-text-container {
   display: flex;
-  /* margin-top: 22rem; */
+  margin-top: 22rem;
   position: absolute;
   top: 275px;
   left: -90px;
@@ -177,15 +136,15 @@ nav ul li a:hover::after {
 }
 
 .left-wing {
-  /* padding: 20px; */
-  /* background-color: #f44336; */
+  padding: 20px;
+  background-color: #f44336;
   position: absolute;
   left: -160px;
-  /* left: 0; */
+  left: 0;
   top: -160px;
   width: 150px;
   height: 200.79px;
-  /* top: 229.74px; */
+  top: 229.74px;
 }
 
 .right-wing {
@@ -196,14 +155,14 @@ nav ul li a:hover::after {
 }
 .skills {
   position: absolute;
-  /* width: 605px;
-height: 288px; */
-  /* left: 109px;
-  top: 2011px; */
+  width: 605px;
+  height: 288px;
+  left: 109px;
+  top: 2011px;
   top: 1800px;
   left: 100px;
   display: flex;
-  /* height: 650px; */
+  height: 650px;
 }
 .skills .skills-text-container h1 {
   color: #f44336;
@@ -498,7 +457,7 @@ span {
   position: absolute;
   width: 100%;
   place-items: center;
-  bottom: -1140px;
+  /* bottom: -1140px; */
   background-color: #000c24;
   padding: 4rem 0;
 }
@@ -525,41 +484,37 @@ div {
 /* Mobile first Design */
 
 @media screen and (max-width: 720px) {
-  body {
+  /* body {
     width: 100vw;
     overflow-x: hidden;
-    background-color: var(--background-color);
-  }
-
+  } */
+  /* 
   .name {
     margin-top: 50%;
     font-size: 16px;
     margin-bottom: 3rem;
-  }
+  } */
   /* .header-text h2{
         font-size: 30px;
     } */
-  nav .fa-solid {
+  /* nav .fa-solid {
     display: block;
     font-size: 25px;
     font-size: 35px;
-    /* margin-left: 10px; */
     position: absolute;
-    right: 0; /* To change the postion of the bars*/
-  }
-  nav ul {
-    /* background: #170d27; */
+    right: 0;
+  } */
+  /* nav ul {
     position: fixed;
     top: 0;
     right: -100%;
     width: 100%;
     height: 100%;
-    /* padding-top: 50px; */
     z-index: 2;
     transition: right 0.5s;
     background: rgba(0, 0, 0, 0.4);
-  }
-  nav ul li {
+  } */
+  /* nav ul li {
     display: block;
     margin: 25px;
   }
@@ -568,7 +523,7 @@ div {
     top: 25px;
     left: 125px;
     cursor: pointer;
-  }
+  } */
   /* #main-bg {
     display: none;
   } */

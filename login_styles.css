@@ -9,7 +9,7 @@ body {
   height: 100vh;
   display: grid;
   place-items: center;
-  background-color: #ddd;
+  background-color: #000c24;
 }
 
 .login__container {

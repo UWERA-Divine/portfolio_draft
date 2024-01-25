@@ -57,6 +57,11 @@ nav ul li a:hover::after {
   width: 100%;
 }
 @media only screen and (max-width: 720px) {
+  nav {
+    margin-bottom: 2rem;
+    z-index: 100;
+    background: #000c24;
+  }
   .fa-xmark,
   .fa-bars {
     display: block;
@@ -73,7 +78,7 @@ nav ul li a:hover::after {
     flex-direction: column;
     height: 100vh;
     width: 100%;
-    background: rgba(0, 0, 0, 0.3);
+    background: #000c24;
     justify-content: space-evenly;
     position: absolute;
     right: -100%;

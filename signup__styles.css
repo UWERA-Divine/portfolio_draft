@@ -11,13 +11,14 @@ body {
   place-items: center;
   width: 100%;
   min-height: 100vh;
+  background: #000c24;
 }
 
 .signup__container {
   display: flex;
   min-height: 80%;
   min-width: 80%;
-  background-color: #aaa;
+  background-color: #fff;
   overflow: hidden;
   position: relative;
   border-radius: 15px;
@@ -112,14 +113,19 @@ body {
   .signup__container {
     width: 100%;
     height: 100%;
-    flex-direction: column;
-    border-radius: 0;
+    display: grid;
+    place-items: center;
   }
-  .signup__container .signup__form {
-    margin-left: 0;
+  .signup__container .background__image {
+    padding-top: 3rem;
+    width: 100%;
   }
-  .signup__container .signup__form form {
-    flex: 4;
-    /* justify-content: space-around; */
+
+  .signup__container .signup__form form input,
+  button {
+    margin-bottom: 1.5rem;
+  }
+  .signup__container .background__image svg {
+    display: none;
   }
 }

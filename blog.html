@@ -7,24 +7,25 @@
     <title>blogPage</title>
     <link rel="stylesheet" href="blog__styles.css">
     <script src="https://kit.fontawesome.com/65ed364978.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="navbar__styles.css">
+    <link rel="stylesheet" href="nav_styles.css">
+    <script src="navbar.js" defer></script>
 </head>
 
 <body>
-    <!-- <nav>
+    <nav>
         <ul>
             <li><a href="index.html" id="home">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Skills</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="blog.html">Blogs</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#blogs">Blogs</a></li>
+            <li><a href="#contact">Contact</a></li>
             <li><a href="login.html">Login</a></li>
             <li><a href="signup.html" id="home">SignUp</a></li>
             <i class="fa-solid fa-xmark" onclick="closeMenu()"></i>
         </ul>
         <i class="fa-solid fa-bars" onclick="openMenu()"></i>
-    </nav> -->
+    </nav>
     <div class="upper__background__images">
         <svg width="201" height="112" viewBox="0 0 201 112" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path
@@ -88,6 +89,10 @@
                 declarations and more concise arrow functions.</p>
             <p>One of JavaScript's key strengths lies in its ability to manipulate the Document Object Model (DOM),
                 allowing developers to dynamically update and modify webpage content. </p>
+            <div class="like-btns">
+                <button>Like 👍</button>
+                <button>Dislike 👎</button>
+            </div>
         </div>
         <div class="comment__container">
             <form action="">
