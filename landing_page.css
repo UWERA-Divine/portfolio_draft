@@ -207,7 +207,9 @@ p {
   text-align: justify;
   color: #000c24;
 }
-
+#portfolio p {
+  color: #000c24;
+}
 .portfolio-container .text-container h1,
 h4 {
   color: #f44336;
@@ -250,7 +252,6 @@ h4 {
 .bar:first-child {
   background-color: #000c24;
 }
-/* Responsiveness */
 
 /* blogs */
 .blogs {
@@ -369,6 +370,9 @@ span {
 .contact-box form button {
   width: 75%;
 }
+#contact p {
+  color: #000c24;
+}
 /* footer */
 footer {
   width: 100%;
@@ -385,10 +389,9 @@ footer .container {
   justify-content: space-around;
 }
 footer .container h4,
-p,
-div {
+p {
   margin-top: 1rem;
-  color: #fff !important;
+  color: #fff;
   line-height: 150%;
   font-size: 1.3rem;
 }
